@@ -8,6 +8,14 @@
     "build": "tsc",
     "release": "standard-version"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gingters/ngx-logging"
+  },
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=3.0 <4.0"
+  },
   "keywords": [
     "js",
     "ts",
@@ -22,7 +30,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "standard-version": "^4.0.0",
-    "ts-logging": "file:../ts-logging",
+    "ts-logging": "^0.0.1",
     "typescript": "^2.2.1"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
-# travis build script for ts-logging
-language: javascript
+# travis build script for ngx-logging
+language: node_js
 
 node_js:
   - "6"
