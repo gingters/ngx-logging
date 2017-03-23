@@ -1,10 +1,12 @@
 {
-  "name": "ts-logging-angular",
-  "version": "0.9.0",
-  "description": "A serilog-like logging framework for javascript / typescript or angular projects",
-  "main": "ts-logging-angular.module.ts",
+  "name": "ngx-logging",
+  "version": "0.0.0",
+  "description": "An Angular packaged version of ts-logging",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc",
+    "release": "standard-version"
   },
   "keywords": [
     "js",
@@ -19,6 +21,7 @@
   "author": "Sebastian P.R. Gingter <sebastian@gingter.org>",
   "license": "Apache-2.0",
   "devDependencies": {
+    "standard-version": "^4.0.0",
     "ts-logging": "file:../ts-logging",
     "typescript": "^2.2.1"
   },
